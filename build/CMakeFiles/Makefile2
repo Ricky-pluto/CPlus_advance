@@ -64,14 +64,17 @@ CMAKE_BINARY_DIR = /home/ttzn/C++_learn/build
 
 # The main recursive "all" target.
 all: 一、类型推导/all
+all: 二、auto/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: 一、类型推导/preinstall
+preinstall: 二、auto/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: 一、类型推导/clean
+clean: 二、auto/clean
 .PHONY : clean
 
 #=============================================================================
@@ -79,7 +82,6 @@ clean: 一、类型推导/clean
 
 # Recursive "all" directory target.
 一、类型推导/all: 一、类型推导/CMakeFiles/base2.dir/all
-一、类型推导/all: 一、类型推导/CMakeFiles/item7.dir/all
 .PHONY : 一、类型推导/all
 
 # Recursive "preinstall" directory target.
@@ -88,8 +90,22 @@ clean: 一、类型推导/clean
 
 # Recursive "clean" directory target.
 一、类型推导/clean: 一、类型推导/CMakeFiles/base2.dir/clean
-一、类型推导/clean: 一、类型推导/CMakeFiles/item7.dir/clean
 .PHONY : 一、类型推导/clean
+
+#=============================================================================
+# Directory level rules for directory 二、auto
+
+# Recursive "all" directory target.
+二、auto/all: 二、auto/CMakeFiles/base8.dir/all
+.PHONY : 二、auto/all
+
+# Recursive "preinstall" directory target.
+二、auto/preinstall:
+.PHONY : 二、auto/preinstall
+
+# Recursive "clean" directory target.
+二、auto/clean: 二、auto/CMakeFiles/base8.dir/clean
+.PHONY : 二、auto/clean
 
 #=============================================================================
 # Target rules for target 一、类型推导/CMakeFiles/base2.dir
@@ -118,30 +134,30 @@ base2: 一、类型推导/CMakeFiles/base2.dir/rule
 .PHONY : 一、类型推导/CMakeFiles/base2.dir/clean
 
 #=============================================================================
-# Target rules for target 一、类型推导/CMakeFiles/item7.dir
+# Target rules for target 二、auto/CMakeFiles/base8.dir
 
 # All Build rule for target.
-一、类型推导/CMakeFiles/item7.dir/all:
-	$(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/item7.dir/build.make 一、类型推导/CMakeFiles/item7.dir/depend
-	$(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/item7.dir/build.make 一、类型推导/CMakeFiles/item7.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=3,4 "Built target item7"
-.PHONY : 一、类型推导/CMakeFiles/item7.dir/all
+二、auto/CMakeFiles/base8.dir/all:
+	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/depend
+	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=3,4 "Built target base8"
+.PHONY : 二、auto/CMakeFiles/base8.dir/all
 
 # Build rule for subdir invocation for target.
-一、类型推导/CMakeFiles/item7.dir/rule: cmake_check_build_system
+二、auto/CMakeFiles/base8.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 一、类型推导/CMakeFiles/item7.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/CMakeFiles/base8.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
-.PHONY : 一、类型推导/CMakeFiles/item7.dir/rule
+.PHONY : 二、auto/CMakeFiles/base8.dir/rule
 
 # Convenience name for target.
-item7: 一、类型推导/CMakeFiles/item7.dir/rule
-.PHONY : item7
+base8: 二、auto/CMakeFiles/base8.dir/rule
+.PHONY : base8
 
 # clean rule for target.
-一、类型推导/CMakeFiles/item7.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/item7.dir/build.make 一、类型推导/CMakeFiles/item7.dir/clean
-.PHONY : 一、类型推导/CMakeFiles/item7.dir/clean
+二、auto/CMakeFiles/base8.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/clean
+.PHONY : 二、auto/CMakeFiles/base8.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

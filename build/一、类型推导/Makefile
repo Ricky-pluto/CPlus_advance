@@ -130,20 +130,6 @@ base2/fast:
 	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/base2.dir/build.make 一、类型推导/CMakeFiles/base2.dir/build
 .PHONY : base2/fast
 
-# Convenience name for target.
-一、类型推导/CMakeFiles/item7.dir/rule:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 一、类型推导/CMakeFiles/item7.dir/rule
-.PHONY : 一、类型推导/CMakeFiles/item7.dir/rule
-
-# Convenience name for target.
-item7: 一、类型推导/CMakeFiles/item7.dir/rule
-.PHONY : item7
-
-# fast build rule for target.
-item7/fast:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/item7.dir/build.make 一、类型推导/CMakeFiles/item7.dir/build
-.PHONY : item7/fast
-
 base2.o: base2.cpp.o
 .PHONY : base2.o
 
@@ -168,30 +154,6 @@ base2.cpp.s:
 	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/base2.dir/build.make 一、类型推导/CMakeFiles/base2.dir/base2.cpp.s
 .PHONY : base2.cpp.s
 
-item7.o: item7.cpp.o
-.PHONY : item7.o
-
-# target to build an object file
-item7.cpp.o:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/item7.dir/build.make 一、类型推导/CMakeFiles/item7.dir/item7.cpp.o
-.PHONY : item7.cpp.o
-
-item7.i: item7.cpp.i
-.PHONY : item7.i
-
-# target to preprocess a source file
-item7.cpp.i:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/item7.dir/build.make 一、类型推导/CMakeFiles/item7.dir/item7.cpp.i
-.PHONY : item7.cpp.i
-
-item7.s: item7.cpp.s
-.PHONY : item7.s
-
-# target to generate assembly for a file
-item7.cpp.s:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/item7.dir/build.make 一、类型推导/CMakeFiles/item7.dir/item7.cpp.s
-.PHONY : item7.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -201,13 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... base2"
-	@echo "... item7"
 	@echo "... base2.o"
 	@echo "... base2.i"
 	@echo "... base2.s"
-	@echo "... item7.o"
-	@echo "... item7.i"
-	@echo "... item7.s"
 .PHONY : help
 
 

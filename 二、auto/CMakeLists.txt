@@ -1,0 +1,1 @@
+add_executable(base8 base8.cpp)

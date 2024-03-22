@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles /home/ttzn/C++_learn/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles /home/ttzn/C++_learn/build/二、auto//CMakeFiles/progress.marks
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named base2
+# Convenience name for target.
+二、auto/CMakeFiles/base8.dir/rule:
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/CMakeFiles/base8.dir/rule
+.PHONY : 二、auto/CMakeFiles/base8.dir/rule
 
-# Build rule for target.
-base2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base2
-.PHONY : base2
-
-# fast build rule for target.
-base2/fast:
-	$(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/base2.dir/build.make 一、类型推导/CMakeFiles/base2.dir/build
-.PHONY : base2/fast
-
-#=============================================================================
-# Target rules for targets named base8
-
-# Build rule for target.
-base8: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base8
+# Convenience name for target.
+base8: 二、auto/CMakeFiles/base8.dir/rule
 .PHONY : base8
 
 # fast build rule for target.
 base8/fast:
-	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/build
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/build
 .PHONY : base8/fast
+
+base8.o: base8.cpp.o
+.PHONY : base8.o
+
+# target to build an object file
+base8.cpp.o:
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.o
+.PHONY : base8.cpp.o
+
+base8.i: base8.cpp.i
+.PHONY : base8.i
+
+# target to preprocess a source file
+base8.cpp.i:
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.i
+.PHONY : base8.cpp.i
+
+base8.s: base8.cpp.s
+.PHONY : base8.s
+
+# target to generate assembly for a file
+base8.cpp.s:
+	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.s
+.PHONY : base8.cpp.s
 
 # Help Target
 help:
@@ -150,8 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... base2"
 	@echo "... base8"
+	@echo "... base8.o"
+	@echo "... base8.i"
+	@echo "... base8.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

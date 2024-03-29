@@ -142,6 +142,45 @@ base8/fast:
 	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/build
 .PHONY : base8/fast
 
+#=============================================================================
+# Target rules for targets named item10
+
+# Build rule for target.
+item10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item10
+.PHONY : item10
+
+# fast build rule for target.
+item10/fast:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/build
+.PHONY : item10/fast
+
+#=============================================================================
+# Target rules for targets named base10
+
+# Build rule for target.
+base10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base10
+.PHONY : base10
+
+# fast build rule for target.
+base10/fast:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/build
+.PHONY : base10/fast
+
+#=============================================================================
+# Target rules for targets named base12
+
+# Build rule for target.
+base12: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base12
+.PHONY : base12
+
+# fast build rule for target.
+base12/fast:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/build
+.PHONY : base12/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -150,8 +189,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... base10"
+	@echo "... base12"
 	@echo "... base2"
 	@echo "... base8"
+	@echo "... item10"
 .PHONY : help
 
 

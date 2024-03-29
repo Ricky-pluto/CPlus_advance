@@ -65,16 +65,19 @@ CMAKE_BINARY_DIR = /home/ttzn/C++_learn/build
 # The main recursive "all" target.
 all: 一、类型推导/all
 all: 二、auto/all
+all: 三、移步现代C++/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: 一、类型推导/preinstall
 preinstall: 二、auto/preinstall
+preinstall: 三、移步现代C++/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: 一、类型推导/clean
 clean: 二、auto/clean
+clean: 三、移步现代C++/clean
 .PHONY : clean
 
 #=============================================================================
@@ -91,6 +94,25 @@ clean: 二、auto/clean
 # Recursive "clean" directory target.
 一、类型推导/clean: 一、类型推导/CMakeFiles/base2.dir/clean
 .PHONY : 一、类型推导/clean
+
+#=============================================================================
+# Directory level rules for directory 三、移步现代C++
+
+# Recursive "all" directory target.
+三、移步现代C++/all: 三、移步现代C++/CMakeFiles/item10.dir/all
+三、移步现代C++/all: 三、移步现代C++/CMakeFiles/base10.dir/all
+三、移步现代C++/all: 三、移步现代C++/CMakeFiles/base12.dir/all
+.PHONY : 三、移步现代C++/all
+
+# Recursive "preinstall" directory target.
+三、移步现代C++/preinstall:
+.PHONY : 三、移步现代C++/preinstall
+
+# Recursive "clean" directory target.
+三、移步现代C++/clean: 三、移步现代C++/CMakeFiles/item10.dir/clean
+三、移步现代C++/clean: 三、移步现代C++/CMakeFiles/base10.dir/clean
+三、移步现代C++/clean: 三、移步现代C++/CMakeFiles/base12.dir/clean
+.PHONY : 三、移步现代C++/clean
 
 #=============================================================================
 # Directory level rules for directory 二、auto
@@ -114,7 +136,7 @@ clean: 二、auto/clean
 一、类型推导/CMakeFiles/base2.dir/all:
 	$(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/base2.dir/build.make 一、类型推导/CMakeFiles/base2.dir/depend
 	$(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/base2.dir/build.make 一、类型推导/CMakeFiles/base2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=1,2 "Built target base2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=5,6 "Built target base2"
 .PHONY : 一、类型推导/CMakeFiles/base2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +162,7 @@ base2: 一、类型推导/CMakeFiles/base2.dir/rule
 二、auto/CMakeFiles/base8.dir/all:
 	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/depend
 	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=3,4 "Built target base8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=7,8 "Built target base8"
 .PHONY : 二、auto/CMakeFiles/base8.dir/all
 
 # Build rule for subdir invocation for target.
@@ -158,6 +180,84 @@ base8: 二、auto/CMakeFiles/base8.dir/rule
 二、auto/CMakeFiles/base8.dir/clean:
 	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/clean
 .PHONY : 二、auto/CMakeFiles/base8.dir/clean
+
+#=============================================================================
+# Target rules for target 三、移步现代C++/CMakeFiles/item10.dir
+
+# All Build rule for target.
+三、移步现代C++/CMakeFiles/item10.dir/all:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/depend
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=9,10 "Built target item10"
+.PHONY : 三、移步现代C++/CMakeFiles/item10.dir/all
+
+# Build rule for subdir invocation for target.
+三、移步现代C++/CMakeFiles/item10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/item10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 三、移步现代C++/CMakeFiles/item10.dir/rule
+
+# Convenience name for target.
+item10: 三、移步现代C++/CMakeFiles/item10.dir/rule
+.PHONY : item10
+
+# clean rule for target.
+三、移步现代C++/CMakeFiles/item10.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/clean
+.PHONY : 三、移步现代C++/CMakeFiles/item10.dir/clean
+
+#=============================================================================
+# Target rules for target 三、移步现代C++/CMakeFiles/base10.dir
+
+# All Build rule for target.
+三、移步现代C++/CMakeFiles/base10.dir/all:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/depend
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=1,2 "Built target base10"
+.PHONY : 三、移步现代C++/CMakeFiles/base10.dir/all
+
+# Build rule for subdir invocation for target.
+三、移步现代C++/CMakeFiles/base10.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/base10.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 三、移步现代C++/CMakeFiles/base10.dir/rule
+
+# Convenience name for target.
+base10: 三、移步现代C++/CMakeFiles/base10.dir/rule
+.PHONY : base10
+
+# clean rule for target.
+三、移步现代C++/CMakeFiles/base10.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/clean
+.PHONY : 三、移步现代C++/CMakeFiles/base10.dir/clean
+
+#=============================================================================
+# Target rules for target 三、移步现代C++/CMakeFiles/base12.dir
+
+# All Build rule for target.
+三、移步现代C++/CMakeFiles/base12.dir/all:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/depend
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=3,4 "Built target base12"
+.PHONY : 三、移步现代C++/CMakeFiles/base12.dir/all
+
+# Build rule for subdir invocation for target.
+三、移步现代C++/CMakeFiles/base12.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/base12.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 三、移步现代C++/CMakeFiles/base12.dir/rule
+
+# Convenience name for target.
+base12: 三、移步现代C++/CMakeFiles/base12.dir/rule
+.PHONY : base12
+
+# clean rule for target.
+三、移步现代C++/CMakeFiles/base12.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/clean
+.PHONY : 三、移步现代C++/CMakeFiles/base12.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

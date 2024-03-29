@@ -6,3 +6,8 @@
 /home/ttzn/C++_learn/build/二、auto/CMakeFiles/base8.dir
 /home/ttzn/C++_learn/build/二、auto/CMakeFiles/edit_cache.dir
 /home/ttzn/C++_learn/build/二、auto/CMakeFiles/rebuild_cache.dir
+/home/ttzn/C++_learn/build/三、移步现代C++/CMakeFiles/item10.dir
+/home/ttzn/C++_learn/build/三、移步现代C++/CMakeFiles/base10.dir
+/home/ttzn/C++_learn/build/三、移步现代C++/CMakeFiles/base12.dir
+/home/ttzn/C++_learn/build/三、移步现代C++/CMakeFiles/edit_cache.dir
+/home/ttzn/C++_learn/build/三、移步现代C++/CMakeFiles/rebuild_cache.dir

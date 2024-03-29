@@ -1,1 +1,1 @@
-/usr/bin/c++ -fno-elide-constructors -O0 -g CMakeFiles/base8.dir/base8.cpp.o -o base8 
+/usr/bin/g++ -fno-elide-constructors -O0 -g -g CMakeFiles/base8.dir/base8.cpp.o -o base8 

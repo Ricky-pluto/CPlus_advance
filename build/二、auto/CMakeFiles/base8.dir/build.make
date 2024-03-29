@@ -73,15 +73,15 @@ include 二、auto/CMakeFiles/base8.dir/flags.make
 二、auto/CMakeFiles/base8.dir/base8.cpp.o: ../二、auto/base8.cpp
 二、auto/CMakeFiles/base8.dir/base8.cpp.o: 二、auto/CMakeFiles/base8.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object 二、auto/CMakeFiles/base8.dir/base8.cpp.o"
-	cd /home/ttzn/C++_learn/build/二、auto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 二、auto/CMakeFiles/base8.dir/base8.cpp.o -MF CMakeFiles/base8.dir/base8.cpp.o.d -o CMakeFiles/base8.dir/base8.cpp.o -c /home/ttzn/C++_learn/二、auto/base8.cpp
+	cd /home/ttzn/C++_learn/build/二、auto && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT 二、auto/CMakeFiles/base8.dir/base8.cpp.o -MF CMakeFiles/base8.dir/base8.cpp.o.d -o CMakeFiles/base8.dir/base8.cpp.o -c /home/ttzn/C++_learn/二、auto/base8.cpp
 
 二、auto/CMakeFiles/base8.dir/base8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base8.dir/base8.cpp.i"
-	cd /home/ttzn/C++_learn/build/二、auto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ttzn/C++_learn/二、auto/base8.cpp > CMakeFiles/base8.dir/base8.cpp.i
+	cd /home/ttzn/C++_learn/build/二、auto && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ttzn/C++_learn/二、auto/base8.cpp > CMakeFiles/base8.dir/base8.cpp.i
 
 二、auto/CMakeFiles/base8.dir/base8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base8.dir/base8.cpp.s"
-	cd /home/ttzn/C++_learn/build/二、auto && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ttzn/C++_learn/二、auto/base8.cpp -o CMakeFiles/base8.dir/base8.cpp.s
+	cd /home/ttzn/C++_learn/build/二、auto && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ttzn/C++_learn/二、auto/base8.cpp -o CMakeFiles/base8.dir/base8.cpp.s
 
 # Object files for target base8
 base8_OBJECTS = \

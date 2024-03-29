@@ -12,6 +12,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "../一、类型推导/CMakeLists.txt"
+  "../三、移步现代C++/CMakeLists.txt"
   "../二、auto/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
@@ -43,10 +44,14 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "一、类型推导/CMakeFiles/CMakeDirectoryInformation.cmake"
   "二、auto/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "三、移步现代C++/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "一、类型推导/CMakeFiles/base2.dir/DependInfo.cmake"
   "二、auto/CMakeFiles/base8.dir/DependInfo.cmake"
+  "三、移步现代C++/CMakeFiles/item10.dir/DependInfo.cmake"
+  "三、移步现代C++/CMakeFiles/base10.dir/DependInfo.cmake"
+  "三、移步现代C++/CMakeFiles/base12.dir/DependInfo.cmake"
   )

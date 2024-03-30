@@ -66,18 +66,21 @@ CMAKE_BINARY_DIR = /home/ttzn/C++_learn/build
 all: 一、类型推导/all
 all: 二、auto/all
 all: 三、移步现代C++/all
+all: 四、智能指针/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: 一、类型推导/preinstall
 preinstall: 二、auto/preinstall
 preinstall: 三、移步现代C++/preinstall
+preinstall: 四、智能指针/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
 clean: 一、类型推导/clean
 clean: 二、auto/clean
 clean: 三、移步现代C++/clean
+clean: 四、智能指针/clean
 .PHONY : clean
 
 #=============================================================================
@@ -128,6 +131,21 @@ clean: 三、移步现代C++/clean
 # Recursive "clean" directory target.
 二、auto/clean: 二、auto/CMakeFiles/base8.dir/clean
 .PHONY : 二、auto/clean
+
+#=============================================================================
+# Directory level rules for directory 四、智能指针
+
+# Recursive "all" directory target.
+四、智能指针/all: 四、智能指针/CMakeFiles/item19.dir/all
+.PHONY : 四、智能指针/all
+
+# Recursive "preinstall" directory target.
+四、智能指针/preinstall:
+.PHONY : 四、智能指针/preinstall
+
+# Recursive "clean" directory target.
+四、智能指针/clean: 四、智能指针/CMakeFiles/item19.dir/clean
+.PHONY : 四、智能指针/clean
 
 #=============================================================================
 # Target rules for target 一、类型推导/CMakeFiles/base2.dir
@@ -258,6 +276,32 @@ base12: 三、移步现代C++/CMakeFiles/base12.dir/rule
 三、移步现代C++/CMakeFiles/base12.dir/clean:
 	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/clean
 .PHONY : 三、移步现代C++/CMakeFiles/base12.dir/clean
+
+#=============================================================================
+# Target rules for target 四、智能指针/CMakeFiles/item19.dir
+
+# All Build rule for target.
+四、智能指针/CMakeFiles/item19.dir/all:
+	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item19.dir/build.make 四、智能指针/CMakeFiles/item19.dir/depend
+	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item19.dir/build.make 四、智能指针/CMakeFiles/item19.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=11,12 "Built target item19"
+.PHONY : 四、智能指针/CMakeFiles/item19.dir/all
+
+# Build rule for subdir invocation for target.
+四、智能指针/CMakeFiles/item19.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 四、智能指针/CMakeFiles/item19.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 四、智能指针/CMakeFiles/item19.dir/rule
+
+# Convenience name for target.
+item19: 四、智能指针/CMakeFiles/item19.dir/rule
+.PHONY : item19
+
+# clean rule for target.
+四、智能指针/CMakeFiles/item19.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item19.dir/build.make 四、智能指针/CMakeFiles/item19.dir/clean
+.PHONY : 四、智能指针/CMakeFiles/item19.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

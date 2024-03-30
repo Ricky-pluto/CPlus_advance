@@ -1,1 +1,1 @@
-/usr/bin/g++ -fno-elide-constructors -O0 -g -g CMakeFiles/base12.dir/base12.cpp.o -o base12 
+/usr/bin/c++ -fno-elide-constructors -O0 -g CMakeFiles/base12.dir/base12.cpp.o -o ../../bin/base12 

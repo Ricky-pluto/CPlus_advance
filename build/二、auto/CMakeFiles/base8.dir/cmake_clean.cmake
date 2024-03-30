@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
+  "../../bin/base8"
+  "../../bin/base8.pdb"
   "CMakeFiles/base8.dir/base8.cpp.o"
   "CMakeFiles/base8.dir/base8.cpp.o.d"
-  "base8"
-  "base8.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

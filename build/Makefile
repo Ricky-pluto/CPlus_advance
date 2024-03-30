@@ -181,6 +181,19 @@ base12/fast:
 	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/build
 .PHONY : base12/fast
 
+#=============================================================================
+# Target rules for targets named item19
+
+# Build rule for target.
+item19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item19
+.PHONY : item19
+
+# fast build rule for target.
+item19/fast:
+	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item19.dir/build.make 四、智能指针/CMakeFiles/item19.dir/build
+.PHONY : item19/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -194,6 +207,7 @@ help:
 	@echo "... base2"
 	@echo "... base8"
 	@echo "... item10"
+	@echo "... item19"
 .PHONY : help
 
 

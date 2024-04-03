@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ttzn/C++_learn
+CMAKE_SOURCE_DIR = /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ttzn/C++_learn/build
+CMAKE_BINARY_DIR = /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles /home/ttzn/C++_learn/build/三、移步现代C++//CMakeFiles/progress.marks
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/三、移步现代C++//CMakeFiles/progress.marks
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/clean
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/preinstall
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/preinstall
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 三、移步现代C++/CMakeFiles/item10.dir/rule:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/item10.dir/rule
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/item10.dir/rule
 .PHONY : 三、移步现代C++/CMakeFiles/item10.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ item10: 三、移步现代C++/CMakeFiles/item10.dir/rule
 
 # fast build rule for target.
 item10/fast:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/build
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/build
 .PHONY : item10/fast
 
 # Convenience name for target.
 三、移步现代C++/CMakeFiles/base10.dir/rule:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/base10.dir/rule
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/base10.dir/rule
 .PHONY : 三、移步现代C++/CMakeFiles/base10.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ base10: 三、移步现代C++/CMakeFiles/base10.dir/rule
 
 # fast build rule for target.
 base10/fast:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/build
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/build
 .PHONY : base10/fast
 
 # Convenience name for target.
 三、移步现代C++/CMakeFiles/base12.dir/rule:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/base12.dir/rule
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/base12.dir/rule
 .PHONY : 三、移步现代C++/CMakeFiles/base12.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ base12: 三、移步现代C++/CMakeFiles/base12.dir/rule
 
 # fast build rule for target.
 base12/fast:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/build
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/build
 .PHONY : base12/fast
 
 base10.o: base10.cpp.o
@@ -163,7 +163,7 @@ base10.o: base10.cpp.o
 
 # target to build an object file
 base10.cpp.o:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/base10.cpp.o
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/base10.cpp.o
 .PHONY : base10.cpp.o
 
 base10.i: base10.cpp.i
@@ -171,7 +171,7 @@ base10.i: base10.cpp.i
 
 # target to preprocess a source file
 base10.cpp.i:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/base10.cpp.i
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/base10.cpp.i
 .PHONY : base10.cpp.i
 
 base10.s: base10.cpp.s
@@ -179,7 +179,7 @@ base10.s: base10.cpp.s
 
 # target to generate assembly for a file
 base10.cpp.s:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/base10.cpp.s
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/base10.cpp.s
 .PHONY : base10.cpp.s
 
 base12.o: base12.cpp.o
@@ -187,7 +187,7 @@ base12.o: base12.cpp.o
 
 # target to build an object file
 base12.cpp.o:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/base12.cpp.o
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/base12.cpp.o
 .PHONY : base12.cpp.o
 
 base12.i: base12.cpp.i
@@ -195,7 +195,7 @@ base12.i: base12.cpp.i
 
 # target to preprocess a source file
 base12.cpp.i:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/base12.cpp.i
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/base12.cpp.i
 .PHONY : base12.cpp.i
 
 base12.s: base12.cpp.s
@@ -203,7 +203,7 @@ base12.s: base12.cpp.s
 
 # target to generate assembly for a file
 base12.cpp.s:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/base12.cpp.s
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/base12.cpp.s
 .PHONY : base12.cpp.s
 
 item10.o: item10.cpp.o
@@ -211,7 +211,7 @@ item10.o: item10.cpp.o
 
 # target to build an object file
 item10.cpp.o:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.o
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.o
 .PHONY : item10.cpp.o
 
 item10.i: item10.cpp.i
@@ -219,7 +219,7 @@ item10.i: item10.cpp.i
 
 # target to preprocess a source file
 item10.cpp.i:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.i
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.i
 .PHONY : item10.cpp.i
 
 item10.s: item10.cpp.s
@@ -227,7 +227,7 @@ item10.s: item10.cpp.s
 
 # target to generate assembly for a file
 item10.cpp.s:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.s
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.s
 .PHONY : item10.cpp.s
 
 # Help Target
@@ -261,6 +261,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

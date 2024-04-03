@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ttzn/C++_learn
+CMAKE_SOURCE_DIR = /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ttzn/C++_learn/build
+CMAKE_BINARY_DIR = /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles /home/ttzn/C++_learn/build/二、auto//CMakeFiles/progress.marks
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/二、auto//CMakeFiles/progress.marks
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/clean
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/preinstall
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/preinstall
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 二、auto/CMakeFiles/base8.dir/rule:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/CMakeFiles/base8.dir/rule
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/CMakeFiles/base8.dir/rule
 .PHONY : 二、auto/CMakeFiles/base8.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ base8: 二、auto/CMakeFiles/base8.dir/rule
 
 # fast build rule for target.
 base8/fast:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/build
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/build
 .PHONY : base8/fast
 
 base8.o: base8.cpp.o
@@ -135,7 +135,7 @@ base8.o: base8.cpp.o
 
 # target to build an object file
 base8.cpp.o:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.o
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.o
 .PHONY : base8.cpp.o
 
 base8.i: base8.cpp.i
@@ -143,7 +143,7 @@ base8.i: base8.cpp.i
 
 # target to preprocess a source file
 base8.cpp.i:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.i
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.i
 .PHONY : base8.cpp.i
 
 base8.s: base8.cpp.s
@@ -151,7 +151,7 @@ base8.s: base8.cpp.s
 
 # target to generate assembly for a file
 base8.cpp.s:
-	cd /home/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.s
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/base8.cpp.s
 .PHONY : base8.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

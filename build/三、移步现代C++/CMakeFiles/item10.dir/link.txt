@@ -1,1 +1,1 @@
-/usr/bin/c++ -fno-elide-constructors -O0 -g CMakeFiles/item10.dir/item10.cpp.o -o ../../bin/item10 
+/usr/bin/g++ -fno-elide-constructors -O0 -g -g CMakeFiles/item10.dir/item10.cpp.o -o ../../bin/item10 

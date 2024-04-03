@@ -1,6 +1,6 @@
 二、auto/CMakeFiles/base8.dir/base8.cpp.o: \
- /home/ttzn/C++_learn/二、auto/base8.cpp /usr/include/stdc-predef.h \
- /usr/include/c++/11/iostream \
+ /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/二、auto/base8.cpp \
+ /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \

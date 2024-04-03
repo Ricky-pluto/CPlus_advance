@@ -1,5 +1,5 @@
 一、类型推导/CMakeFiles/base2.dir/base2.cpp.o: \
- /home/ttzn/C++_learn/一、类型推导/base2.cpp \
+ /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/一、类型推导/base2.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

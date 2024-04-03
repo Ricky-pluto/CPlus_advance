@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ttzn/C++_learn
+CMAKE_SOURCE_DIR = /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ttzn/C++_learn/build
+CMAKE_BINARY_DIR = /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -67,6 +67,8 @@ all: 一、类型推导/all
 all: 二、auto/all
 all: 三、移步现代C++/all
 all: 四、智能指针/all
+all: 五、移动语义、右值引用、完美转发/all
+all: 六、lambda表达式/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -74,6 +76,8 @@ preinstall: 一、类型推导/preinstall
 preinstall: 二、auto/preinstall
 preinstall: 三、移步现代C++/preinstall
 preinstall: 四、智能指针/preinstall
+preinstall: 五、移动语义、右值引用、完美转发/preinstall
+preinstall: 六、lambda表达式/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -81,6 +85,8 @@ clean: 一、类型推导/clean
 clean: 二、auto/clean
 clean: 三、移步现代C++/clean
 clean: 四、智能指针/clean
+clean: 五、移动语义、右值引用、完美转发/clean
+clean: 六、lambda表达式/clean
 .PHONY : clean
 
 #=============================================================================
@@ -133,10 +139,55 @@ clean: 四、智能指针/clean
 .PHONY : 二、auto/clean
 
 #=============================================================================
+# Directory level rules for directory 五、移动语义、右值引用、完美转发
+
+# Recursive "all" directory target.
+五、移动语义、右值引用、完美转发/all: 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/all
+五、移动语义、右值引用、完美转发/all: 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/all
+五、移动语义、右值引用、完美转发/all: 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/all
+五、移动语义、右值引用、完美转发/all: 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/all
+五、移动语义、右值引用、完美转发/all: 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/all
+五、移动语义、右值引用、完美转发/all: 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/all
+五、移动语义、右值引用、完美转发/all: 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/all
+五、移动语义、右值引用、完美转发/all: 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/all
+.PHONY : 五、移动语义、右值引用、完美转发/all
+
+# Recursive "preinstall" directory target.
+五、移动语义、右值引用、完美转发/preinstall:
+.PHONY : 五、移动语义、右值引用、完美转发/preinstall
+
+# Recursive "clean" directory target.
+五、移动语义、右值引用、完美转发/clean: 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/clean
+五、移动语义、右值引用、完美转发/clean: 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/clean
+五、移动语义、右值引用、完美转发/clean: 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/clean
+五、移动语义、右值引用、完美转发/clean: 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/clean
+五、移动语义、右值引用、完美转发/clean: 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/clean
+五、移动语义、右值引用、完美转发/clean: 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/clean
+五、移动语义、右值引用、完美转发/clean: 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/clean
+五、移动语义、右值引用、完美转发/clean: 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/clean
+
+#=============================================================================
+# Directory level rules for directory 六、lambda表达式
+
+# Recursive "all" directory target.
+六、lambda表达式/all: 六、lambda表达式/CMakeFiles/base21.dir/all
+.PHONY : 六、lambda表达式/all
+
+# Recursive "preinstall" directory target.
+六、lambda表达式/preinstall:
+.PHONY : 六、lambda表达式/preinstall
+
+# Recursive "clean" directory target.
+六、lambda表达式/clean: 六、lambda表达式/CMakeFiles/base21.dir/clean
+.PHONY : 六、lambda表达式/clean
+
+#=============================================================================
 # Directory level rules for directory 四、智能指针
 
 # Recursive "all" directory target.
 四、智能指针/all: 四、智能指针/CMakeFiles/item19.dir/all
+四、智能指针/all: 四、智能指针/CMakeFiles/item22.dir/all
 .PHONY : 四、智能指针/all
 
 # Recursive "preinstall" directory target.
@@ -145,6 +196,7 @@ clean: 四、智能指针/clean
 
 # Recursive "clean" directory target.
 四、智能指针/clean: 四、智能指针/CMakeFiles/item19.dir/clean
+四、智能指针/clean: 四、智能指针/CMakeFiles/item22.dir/clean
 .PHONY : 四、智能指针/clean
 
 #=============================================================================
@@ -154,14 +206,14 @@ clean: 四、智能指针/clean
 一、类型推导/CMakeFiles/base2.dir/all:
 	$(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/base2.dir/build.make 一、类型推导/CMakeFiles/base2.dir/depend
 	$(MAKE) $(MAKESILENT) -f 一、类型推导/CMakeFiles/base2.dir/build.make 一、类型推导/CMakeFiles/base2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=5,6 "Built target base2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=9,10 "Built target base2"
 .PHONY : 一、类型推导/CMakeFiles/base2.dir/all
 
 # Build rule for subdir invocation for target.
 一、类型推导/CMakeFiles/base2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 一、类型推导/CMakeFiles/base2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : 一、类型推导/CMakeFiles/base2.dir/rule
 
 # Convenience name for target.
@@ -180,14 +232,14 @@ base2: 一、类型推导/CMakeFiles/base2.dir/rule
 二、auto/CMakeFiles/base8.dir/all:
 	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/depend
 	$(MAKE) $(MAKESILENT) -f 二、auto/CMakeFiles/base8.dir/build.make 二、auto/CMakeFiles/base8.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=7,8 "Built target base8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=13,14 "Built target base8"
 .PHONY : 二、auto/CMakeFiles/base8.dir/all
 
 # Build rule for subdir invocation for target.
 二、auto/CMakeFiles/base8.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 二、auto/CMakeFiles/base8.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : 二、auto/CMakeFiles/base8.dir/rule
 
 # Convenience name for target.
@@ -206,14 +258,14 @@ base8: 二、auto/CMakeFiles/base8.dir/rule
 三、移步现代C++/CMakeFiles/item10.dir/all:
 	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/depend
 	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/item10.dir/build.make 三、移步现代C++/CMakeFiles/item10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=9,10 "Built target item10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=15,16 "Built target item10"
 .PHONY : 三、移步现代C++/CMakeFiles/item10.dir/all
 
 # Build rule for subdir invocation for target.
 三、移步现代C++/CMakeFiles/item10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/item10.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : 三、移步现代C++/CMakeFiles/item10.dir/rule
 
 # Convenience name for target.
@@ -232,14 +284,14 @@ item10: 三、移步现代C++/CMakeFiles/item10.dir/rule
 三、移步现代C++/CMakeFiles/base10.dir/all:
 	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/depend
 	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base10.dir/build.make 三、移步现代C++/CMakeFiles/base10.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=1,2 "Built target base10"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=1,2 "Built target base10"
 .PHONY : 三、移步现代C++/CMakeFiles/base10.dir/all
 
 # Build rule for subdir invocation for target.
 三、移步现代C++/CMakeFiles/base10.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/base10.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : 三、移步现代C++/CMakeFiles/base10.dir/rule
 
 # Convenience name for target.
@@ -258,14 +310,14 @@ base10: 三、移步现代C++/CMakeFiles/base10.dir/rule
 三、移步现代C++/CMakeFiles/base12.dir/all:
 	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/depend
 	$(MAKE) $(MAKESILENT) -f 三、移步现代C++/CMakeFiles/base12.dir/build.make 三、移步现代C++/CMakeFiles/base12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=3,4 "Built target base12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=3,4 "Built target base12"
 .PHONY : 三、移步现代C++/CMakeFiles/base12.dir/all
 
 # Build rule for subdir invocation for target.
 三、移步现代C++/CMakeFiles/base12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 三、移步现代C++/CMakeFiles/base12.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : 三、移步现代C++/CMakeFiles/base12.dir/rule
 
 # Convenience name for target.
@@ -284,14 +336,14 @@ base12: 三、移步现代C++/CMakeFiles/base12.dir/rule
 四、智能指针/CMakeFiles/item19.dir/all:
 	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item19.dir/build.make 四、智能指针/CMakeFiles/item19.dir/depend
 	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item19.dir/build.make 四、智能指针/CMakeFiles/item19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ttzn/C++_learn/build/CMakeFiles --progress-num=11,12 "Built target item19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=17,18 "Built target item19"
 .PHONY : 四、智能指针/CMakeFiles/item19.dir/all
 
 # Build rule for subdir invocation for target.
 四、智能指针/CMakeFiles/item19.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 四、智能指针/CMakeFiles/item19.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : 四、智能指针/CMakeFiles/item19.dir/rule
 
 # Convenience name for target.
@@ -302,6 +354,266 @@ item19: 四、智能指针/CMakeFiles/item19.dir/rule
 四、智能指针/CMakeFiles/item19.dir/clean:
 	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item19.dir/build.make 四、智能指针/CMakeFiles/item19.dir/clean
 .PHONY : 四、智能指针/CMakeFiles/item19.dir/clean
+
+#=============================================================================
+# Target rules for target 四、智能指针/CMakeFiles/item22.dir
+
+# All Build rule for target.
+四、智能指针/CMakeFiles/item22.dir/all:
+	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item22.dir/build.make 四、智能指针/CMakeFiles/item22.dir/depend
+	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item22.dir/build.make 四、智能指针/CMakeFiles/item22.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=19,20,21 "Built target item22"
+.PHONY : 四、智能指针/CMakeFiles/item22.dir/all
+
+# Build rule for subdir invocation for target.
+四、智能指针/CMakeFiles/item22.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 四、智能指针/CMakeFiles/item22.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 四、智能指针/CMakeFiles/item22.dir/rule
+
+# Convenience name for target.
+item22: 四、智能指针/CMakeFiles/item22.dir/rule
+.PHONY : item22
+
+# clean rule for target.
+四、智能指针/CMakeFiles/item22.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item22.dir/build.make 四、智能指针/CMakeFiles/item22.dir/clean
+.PHONY : 四、智能指针/CMakeFiles/item22.dir/clean
+
+#=============================================================================
+# Target rules for target 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir
+
+# All Build rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/all:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/depend
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=22,23 "Built target item25"
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/all
+
+# Build rule for subdir invocation for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/rule
+
+# Convenience name for target.
+item25: 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/rule
+.PHONY : item25
+
+# clean rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/clean
+
+#=============================================================================
+# Target rules for target 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir
+
+# All Build rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/all:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/depend
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=5,6 "Built target base18"
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/all
+
+# Build rule for subdir invocation for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/rule
+
+# Convenience name for target.
+base18: 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/rule
+.PHONY : base18
+
+# clean rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/clean
+
+#=============================================================================
+# Target rules for target 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir
+
+# All Build rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/all:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/depend
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=24,25 "Built target item26"
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/all
+
+# Build rule for subdir invocation for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/rule
+
+# Convenience name for target.
+item26: 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/rule
+.PHONY : item26
+
+# clean rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/clean
+
+#=============================================================================
+# Target rules for target 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir
+
+# All Build rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/all:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/depend
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=7,8 "Built target base19"
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/all
+
+# Build rule for subdir invocation for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/rule
+
+# Convenience name for target.
+base19: 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/rule
+.PHONY : base19
+
+# clean rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/clean
+
+#=============================================================================
+# Target rules for target 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir
+
+# All Build rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/all:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/depend
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=32,33 "Built target item41"
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/all
+
+# Build rule for subdir invocation for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/rule
+
+# Convenience name for target.
+item41: 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/rule
+.PHONY : item41
+
+# clean rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/clean
+
+#=============================================================================
+# Target rules for target 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir
+
+# All Build rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/all:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/depend
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=26,27 "Built target item27"
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/all
+
+# Build rule for subdir invocation for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/rule
+
+# Convenience name for target.
+item27: 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/rule
+.PHONY : item27
+
+# clean rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/clean
+
+#=============================================================================
+# Target rules for target 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir
+
+# All Build rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/all:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/depend
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=28,29 "Built target item29"
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/all
+
+# Build rule for subdir invocation for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/rule
+
+# Convenience name for target.
+item29: 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/rule
+.PHONY : item29
+
+# clean rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/clean
+
+#=============================================================================
+# Target rules for target 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir
+
+# All Build rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/all:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/depend
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=30,31 "Built target item30"
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/all
+
+# Build rule for subdir invocation for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/rule
+
+# Convenience name for target.
+item30: 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/rule
+.PHONY : item30
+
+# clean rule for target.
+五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/clean
+.PHONY : 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/clean
+
+#=============================================================================
+# Target rules for target 六、lambda表达式/CMakeFiles/base21.dir
+
+# All Build rule for target.
+六、lambda表达式/CMakeFiles/base21.dir/all:
+	$(MAKE) $(MAKESILENT) -f 六、lambda表达式/CMakeFiles/base21.dir/build.make 六、lambda表达式/CMakeFiles/base21.dir/depend
+	$(MAKE) $(MAKESILENT) -f 六、lambda表达式/CMakeFiles/base21.dir/build.make 六、lambda表达式/CMakeFiles/base21.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles --progress-num=11,12 "Built target base21"
+.PHONY : 六、lambda表达式/CMakeFiles/base21.dir/all
+
+# Build rule for subdir invocation for target.
+六、lambda表达式/CMakeFiles/base21.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 六、lambda表达式/CMakeFiles/base21.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
+.PHONY : 六、lambda表达式/CMakeFiles/base21.dir/rule
+
+# Convenience name for target.
+base21: 六、lambda表达式/CMakeFiles/base21.dir/rule
+.PHONY : base21
+
+# clean rule for target.
+六、lambda表达式/CMakeFiles/base21.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 六、lambda表达式/CMakeFiles/base21.dir/build.make 六、lambda表达式/CMakeFiles/base21.dir/clean
+.PHONY : 六、lambda表达式/CMakeFiles/base21.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

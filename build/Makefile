@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ttzn/C++_learn
+CMAKE_SOURCE_DIR = /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ttzn/C++_learn/build
+CMAKE_BINARY_DIR = /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles /home/ttzn/C++_learn/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ttzn/C++_learn/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -194,6 +194,136 @@ item19/fast:
 	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item19.dir/build.make 四、智能指针/CMakeFiles/item19.dir/build
 .PHONY : item19/fast
 
+#=============================================================================
+# Target rules for targets named item22
+
+# Build rule for target.
+item22: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item22
+.PHONY : item22
+
+# fast build rule for target.
+item22/fast:
+	$(MAKE) $(MAKESILENT) -f 四、智能指针/CMakeFiles/item22.dir/build.make 四、智能指针/CMakeFiles/item22.dir/build
+.PHONY : item22/fast
+
+#=============================================================================
+# Target rules for targets named item25
+
+# Build rule for target.
+item25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item25
+.PHONY : item25
+
+# fast build rule for target.
+item25/fast:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item25.dir/build
+.PHONY : item25/fast
+
+#=============================================================================
+# Target rules for targets named base18
+
+# Build rule for target.
+base18: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base18
+.PHONY : base18
+
+# fast build rule for target.
+base18/fast:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/base18.dir/build
+.PHONY : base18/fast
+
+#=============================================================================
+# Target rules for targets named item26
+
+# Build rule for target.
+item26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item26
+.PHONY : item26
+
+# fast build rule for target.
+item26/fast:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item26.dir/build
+.PHONY : item26/fast
+
+#=============================================================================
+# Target rules for targets named base19
+
+# Build rule for target.
+base19: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base19
+.PHONY : base19
+
+# fast build rule for target.
+base19/fast:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/base19.dir/build
+.PHONY : base19/fast
+
+#=============================================================================
+# Target rules for targets named item41
+
+# Build rule for target.
+item41: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item41
+.PHONY : item41
+
+# fast build rule for target.
+item41/fast:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item41.dir/build
+.PHONY : item41/fast
+
+#=============================================================================
+# Target rules for targets named item27
+
+# Build rule for target.
+item27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item27
+.PHONY : item27
+
+# fast build rule for target.
+item27/fast:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item27.dir/build
+.PHONY : item27/fast
+
+#=============================================================================
+# Target rules for targets named item29
+
+# Build rule for target.
+item29: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item29
+.PHONY : item29
+
+# fast build rule for target.
+item29/fast:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item29.dir/build
+.PHONY : item29/fast
+
+#=============================================================================
+# Target rules for targets named item30
+
+# Build rule for target.
+item30: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 item30
+.PHONY : item30
+
+# fast build rule for target.
+item30/fast:
+	$(MAKE) $(MAKESILENT) -f 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/build.make 五、移动语义、右值引用、完美转发/CMakeFiles/item30.dir/build
+.PHONY : item30/fast
+
+#=============================================================================
+# Target rules for targets named base21
+
+# Build rule for target.
+base21: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 base21
+.PHONY : base21
+
+# fast build rule for target.
+base21/fast:
+	$(MAKE) $(MAKESILENT) -f 六、lambda表达式/CMakeFiles/base21.dir/build.make 六、lambda表达式/CMakeFiles/base21.dir/build
+.PHONY : base21/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -204,10 +334,20 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... base10"
 	@echo "... base12"
+	@echo "... base18"
+	@echo "... base19"
 	@echo "... base2"
+	@echo "... base21"
 	@echo "... base8"
 	@echo "... item10"
 	@echo "... item19"
+	@echo "... item22"
+	@echo "... item25"
+	@echo "... item26"
+	@echo "... item27"
+	@echo "... item29"
+	@echo "... item30"
+	@echo "... item41"
 .PHONY : help
 
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ttzn/C++_learn/三、移步现代C++/item10.cpp" "三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.o" "gcc" "三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.o.d"
+  "/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/三、移步现代C++/item10.cpp" "三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.o" "gcc" "三、移步现代C++/CMakeFiles/item10.dir/item10.cpp.o.d"
   )
 
 # Targets to which this target links.

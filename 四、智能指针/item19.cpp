@@ -6,7 +6,7 @@
 //std::shared_ptr有16个字节8个字节指向T，。后8个字节维护堆区域的control block（reference count，week count，other data）
 //reference count必须动态分配  
 //control block的生成时机：1.使用std::make_shared.  2.通过unique_ptr构建shared_ptr.  3.向shared_ptr构造传入一个裸指针
-//多个share_ptr指向同一个目标时，应该也同时指向同一个control_block，否则会多次释放
+//多个share_ptr指向同一个目标时，应该也同时指向同一个control_block，否则会多次释放.这个在类里传入this指针的时候经常出现，尤其是vector.emplace_back(this)
 
 class Test
 {

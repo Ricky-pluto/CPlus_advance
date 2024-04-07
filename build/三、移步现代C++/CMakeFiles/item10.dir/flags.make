@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -fno-elide-constructors -O0 -g -g
+CXX_FLAGS = -fno-elide-constructors -O0 -g -g -std=gnu++20
 

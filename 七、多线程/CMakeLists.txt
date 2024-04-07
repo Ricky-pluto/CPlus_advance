@@ -1,0 +1,8 @@
+add_executable(base100 base100.cpp)
+add_executable(base101 base101.cpp)
+add_executable(base102 base102.cpp)
+add_executable(base103 base103.cpp)
+add_executable(base104 base104.cpp)
+add_executable(base105 base105.cpp)
+add_executable(base106 base106.cpp)
+add_executable(base107 base107.cpp)

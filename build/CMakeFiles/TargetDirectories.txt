@@ -28,3 +28,13 @@
 /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/六、lambda表达式/CMakeFiles/base21.dir
 /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/六、lambda表达式/CMakeFiles/edit_cache.dir
 /media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/六、lambda表达式/CMakeFiles/rebuild_cache.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/base100.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/base101.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/base102.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/base103.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/base104.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/base105.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/base106.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/base107.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/edit_cache.dir
+/media/pluto/04f2ae43-8638-4f49-90d3-8cd4387797e6/ttzn/C++_learn/build/七、多线程/CMakeFiles/rebuild_cache.dir
